@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+<AddressForm>
+
+  <Salutation>
+    <Txt></Txt>
+    <Displayed>false</Displayed>
+    <Required>false</Required>
+    <MaxLength>10</MaxLength>
+    <Placeholder></Placeholder>
+    <Type>Select</Type>
+    <DefaultOption>Mrs.</DefaultOption>
+    <Options>
+      <Option>Mr.</Option>
+      <Option>Mrs.</Option>
+    </Options>
+  </Salutation>
+
+  <FirstName>
+    <Txt>Nombre</Txt>
+    <Displayed>true</Displayed>
+    <Required>true</Required>
+    <MaxLength>12</MaxLength>
+    <Placeholder>Nombre</Placeholder>
+    <Type>Text</Type>
+  </FirstName>
+
+  <LastName>
+    <Txt>Appelido</Txt>
+    <Displayed>true</Displayed>
+    <Required>true</Required>
+    <MaxLength>21</MaxLength>
+    <Placeholder>Appelido</Placeholder>
+    <Type>Text</Type>
+  </LastName>
+
+  <AdrLine1>
+    <Txt>Direction</Txt>
+    <Displayed>true</Displayed>
+    <Required>true</Required>
+    <MaxLength>35</MaxLength>
+    <Placeholder>Direction</Placeholder>
+    <Type>Text</Type>
+  </AdrLine1>
+
+  <Email>
+    <Txt>E-Mail Adresse</Txt>
+    <Displayed>true</Displayed>
+    <Required>true</Required>
+    <MaxLength>60</MaxLength>
+    <Placeholder>E-Mail-Adresse</Placeholder>
+    <Type>Text</Type>
+  </Email>
+
+  <CustomerType>
+    <Txt>CustomerType</Txt>
+    <Displayed>true</Displayed>
+    <Required>false</Required>
+    <MaxLength>10</MaxLength>
+    <Placeholder></Placeholder>
+    <Type>Radio</Type>
+    <DefaultOption>Para Casa</DefaultOption>
+    <Options>
+      <Option>Para Casa</Option>
+      <Option>Profesionales</Option>
+    </Options>
+  </CustomerType>
+
+
+  <Mobile>
+    <Txt>Mobiltelefon</Txt>
+    <Displayed>true</Displayed>
+    <Required>true</Required>
+    <MaxLength>40</MaxLength>
+    <Placeholder>Mobiltelefon-Nummer</Placeholder>
+    <Type>Text</Type>
+  </Mobile>
+
+
+  <City>
+    <Txt>Ciudad</Txt>
+    <Displayed>true</Displayed>
+    <Required>true</Required>
+    <MaxLength>35</MaxLength>
+    <Placeholder>Ciudad</Placeholder>
+    <Type>Text</Type>
+  </City>
+
+  <Country>
+    <Txt>City</Txt>
+    <Displayed>true</Displayed>
+    <Required>true</Required>
+    <MaxLength>35</MaxLength>
+    <Type>Select</Type>
+    <Placeholder></Placeholder>
+    <DefaultOption>ES</DefaultOption>
+    <Options>
+      <Option>ES</Option>
+    </Options>
+  </Country>
+  
+
+  <SubscribeToNewsletter>
+    <Txt>Subscribe</Txt>
+    <Displayed>true</Displayed>
+    <Required>true</Required>
+    <MaxLength>10</MaxLength>
+    <Placeholder></Placeholder>
+    <Type>Checkbox</Type>
+    <DefaultOption>Subscribe to Newsletter</DefaultOption>
+  </SubscribeToNewsletter>
+  
+</AddressForm>
+  
+  <Payments>
+    <PayPal></PayPal>
+    <ESPayment></ESPayment>
+    <Visa selected="true"></Visa>
+    <Matercard></Matercard>
+    <Amex></Amex>
+    <BankTransfer></BankTransfer>
+  </Payments>
+</Data>

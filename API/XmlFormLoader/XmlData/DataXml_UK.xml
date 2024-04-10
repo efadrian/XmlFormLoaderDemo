@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+<AddressForm>
+
+  <Salutation>
+    <Txt>Salutation</Txt>
+    <Displayed>true</Displayed>
+    <Required>false</Required>
+    <MaxLength>10</MaxLength>
+    <Placeholder></Placeholder>
+    <Type>Select</Type>
+    <DefaultOption>Mrs.</DefaultOption>
+    <Options>
+      <Option>Mr.</Option>
+      <Option>Mrs.</Option>
+    </Options>
+  </Salutation>
+
+  <FirstName>
+    <Txt>FirstName</Txt>
+    <Displayed>true</Displayed>
+    <Required>true</Required>
+    <MaxLength>12</MaxLength>
+    <Placeholder>FirstName</Placeholder>
+    <Type>Text</Type>
+  </FirstName>
+
+  <LastName>
+    <Txt>LastName</Txt>
+    <Displayed>true</Displayed>
+    <Required>true</Required>
+    <MaxLength>21</MaxLength>
+    <Placeholder>LastName</Placeholder>
+    <Type>Text</Type>
+  </LastName>
+
+  <AdrLine1>
+    <Txt>Adresse</Txt>
+    <Displayed>true</Displayed>
+    <Required>true</Required>
+    <MaxLength>35</MaxLength>
+    <Placeholder>Adresse</Placeholder>
+    <Type>Text</Type>
+  </AdrLine1>
+
+  <Email>
+    <Txt>E-Mail Adresse</Txt>
+    <Displayed>true</Displayed>
+    <Required>true</Required>
+    <MaxLength>60</MaxLength>
+    <Placeholder>E-Mail-Adresse</Placeholder>
+    <Type>Text</Type>
+  </Email>
+
+  <CustomerType>
+    <Txt>CustomerType</Txt>
+    <Displayed>true</Displayed>
+    <Required>false</Required>
+    <MaxLength>10</MaxLength>
+    <Placeholder></Placeholder>
+    <Type>Radio</Type>
+    <DefaultOption>Business</DefaultOption>
+    <Options>
+      <Option>Consumer</Option>
+      <Option>Business</Option>
+    </Options>
+  </CustomerType>
+
+
+  <Mobile>
+    <Txt>Mobil</Txt>
+    <Displayed>true</Displayed>
+    <Required>true</Required>
+    <MaxLength>40</MaxLength>
+    <Placeholder>Mobil</Placeholder>
+    <Type>Text</Type>
+  </Mobile>
+
+
+  <City>
+    <Txt>City</Txt>
+    <Displayed>true</Displayed>
+    <Required>true</Required>
+    <MaxLength>35</MaxLength>
+    <Placeholder>City</Placeholder>
+    <Type>Text</Type>
+  </City>
+
+  <Country>
+    <Txt>City</Txt>
+    <Displayed>false</Displayed>
+    <Required>true</Required>
+    <MaxLength>35</MaxLength>
+    <Type>Select</Type>
+    <Placeholder></Placeholder>
+    <DefaultOption>UK</DefaultOption>
+    <Options>
+      <Option>UK</Option>
+    </Options>
+  </Country>
+  
+
+  <SubscribeToNewsletter>
+    <Txt>Subscribe</Txt>
+    <Displayed>true</Displayed>
+    <Required>true</Required>
+    <MaxLength>10</MaxLength>
+    <Placeholder></Placeholder>
+    <Type>Checkbox</Type>
+    <DefaultOption>Subscribe to Newsletter</DefaultOption>
+  </SubscribeToNewsletter>
+  
+</AddressForm>  
+  
+<Payments>
+  <PayPal></PayPal>
+  <Visa></Visa>
+  <Matercard selected="true"></Matercard>
+  <Amex></Amex>
+  <BankTransfer></BankTransfer>
+</Payments>
+</Data>
+
+

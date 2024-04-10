@@ -1,0 +1,4 @@
+﻿
+// EF Migration -> Console
+// Add-Migration "XMLDemo"
+// Update-Database
