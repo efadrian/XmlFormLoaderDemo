@@ -172,3 +172,4 @@ D:\GitHub\XmlFormLoaderDemo\API\XmlFormLoader\obj\Debug\net6.0\refint\XmlFormLoa
 D:\GitHub\XmlFormLoaderDemo\API\XmlFormLoader\obj\Debug\net6.0\XmlFormLoaderDemo.pdb
 D:\GitHub\XmlFormLoaderDemo\API\XmlFormLoader\obj\Debug\net6.0\XmlFormLoaderDemo.genruntimeconfig.cache
 D:\GitHub\XmlFormLoaderDemo\API\XmlFormLoader\obj\Debug\net6.0\ref\XmlFormLoaderDemo.dll
+D:\GitHub\XmlFormLoaderDemo\API\XmlFormLoader\obj\Debug\net6.0\XmlFormLoaderDemo.sourcelink.json

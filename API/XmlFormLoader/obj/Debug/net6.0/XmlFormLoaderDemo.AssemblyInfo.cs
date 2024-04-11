@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XmlFormLoaderDemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8eb0ef9108dd4aedf98e57e159e9fd2231b991c0")]
 [assembly: System.Reflection.AssemblyProductAttribute("XmlFormLoaderDemo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XmlFormLoaderDemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
