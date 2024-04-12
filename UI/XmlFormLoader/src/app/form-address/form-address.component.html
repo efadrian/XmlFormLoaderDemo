@@ -1,0 +1,76 @@
+<div class="container mt-1">
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <h5>Select Country {{ this.country }}</h5>
+
+      <form #userForm>
+        <div *ngFor="let field of formData" class="mb-1">
+          <label>{{ field.placeholder }}</label>
+          <ng-container *ngIf="field.type === 'select'; else otherField">
+            <select
+              class="form-select"
+              *ngIf="field.show"
+              (ngModel)="(selectedOptions[field.fieldName])"
+            >
+              <option *ngFor="let option of field.options" [value]="option">
+                {{ option }}
+              </option>
+            </select>
+          </ng-container>
+          <ng-template #otherField>
+            <input
+              *ngIf="field.show && field.type === 'text'"
+              type="text"
+              class="form-control"
+              [placeholder]="field.placeholder"
+              [required]="field.required"
+            />
+
+            <div *ngIf="field.type === 'radio'" class="row">
+              <div class="col-5 p-2" *ngFor="let option of field.options">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="{{ field.fieldName }}"
+                    [id]="option"
+                    [value]="option"
+                    (ngModel)="(selectedOptions[field.fieldName])"
+                    [checked]="option === field.defaultOption"
+                  />
+                  <label class="form-check-label" [for]="option">{{
+                    option
+                  }}</label>
+                </div>
+              </div>
+            </div>
+
+            <div *ngIf="field.type === 'checkbox'">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="{{ field.fieldName }}"
+              />
+              <label class="form-check-label ms-2" for="sampleCheckbox">{{
+                field.defaultOption
+              }}</label>
+            </div>
+          </ng-template>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col-6"></div>
+          <div class="col-6">
+            <button
+              type="submit"
+              class="btn btn-info"
+              (click)="navigateToPayments()"
+            >
+              Next to Payments >>
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
